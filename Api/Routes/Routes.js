@@ -24,14 +24,14 @@ function getRoutes(router) {
 
   //Todo state routes
   router
-    .get("/todostate", controllers.todoState.getTodoState)
-    .post("/todostate", controllers.todoState.createTodoState)
-    .put("/todostate:id", controllers.todoState.updateTodoState)
-    .delete("/todostate:id", controllers.todoState.deleteTodoState);
+    .get("/state", controllers.todoState.getTodoState)
+    .post("/state", controllers.todoState.createTodoState)
+    .put("/state:id", controllers.todoState.updateTodoState)
+    .delete("/state:id", controllers.todoState.deleteTodoState);
 
   //Folder routes
   router
-    .get("/foler", controllers.folder.getFolder)
+    .get("/folder", controllers.folder.getFolder)
     .post("/folder", controllers.folder.createFolder)
     .put("/folder:id", controllers.folder.updateFolder)
     .delete("/folder:id", controllers.folder.deleteFolder);
