@@ -5,7 +5,7 @@ module.exports = {
     //const idTodoState = req.params.idTodoState;
     const idTodoState = 1;
     try {
-      const todoState = await todoServices.getTodoState(idTodoState);
+      const todoState = await todoStateServices.getTodoState(idTodoState);
       return res.status(200).json({
         status: 200,
         data: todoState,
@@ -27,7 +27,7 @@ module.exports = {
       modificationDateTodoState: "2021-12-12 05:05:05",
     };
     try {
-      const todoState = await todoServices.createTodoState(data);
+      const todoState = await todoStateServices.createTodoState(data);
       return res.status(201).json({
         status: 201,
         data: todoState,
@@ -49,7 +49,7 @@ module.exports = {
       modificationDateTodoState: "2021-12-12 05:05:05",
     };
     try {
-      const todoState = await todoServices.updateTodoState(data);
+      const todoState = await todoStateServices.updateTodoState(data);
       return res.status(200).json({
         status: 200,
         data: todoState,
@@ -65,7 +65,7 @@ module.exports = {
     // idTodoState = req.params.idTodoState;
     const idTodoState = 1;
     try {
-      const todoState = await todoServices.deleteTodoState(idTodoState);
+      const todoState = await todoStateServices.deleteTodoState(idTodoState);
       return res.status(200).json({
         status: 200,
         data: todoState,
