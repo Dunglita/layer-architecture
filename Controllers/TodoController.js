@@ -18,6 +18,7 @@ module.exports = {
   createTodo: async (req, res) => {
     /*
     let data = {
+      idTodo: req.body.idTodo,
       titleTodo: req.body.titleTodo,
       descriptionTodo: req.body.descriptionTodo,
       idTodoState: req.body.idTodoState,
@@ -26,6 +27,7 @@ module.exports = {
        };
       */
     let data = {
+      idTodo: "1",
       titleTodo: "Clean desk",
       descriptionTodo: "Clean both desk and computer once a week",
       idTodoState: "1",
@@ -46,6 +48,7 @@ module.exports = {
   updateTodo: async (req, res) => {
     /*
     let data = {
+      idTodo: req.body.idTodo,
       titleTodo: req.body.titleTodo,
       descriptionTodo: req.body.descriptionTodo,
       idTodoState: req.body.idTodoState,
@@ -54,6 +57,7 @@ module.exports = {
        };
       */
     let data = {
+      idTodo: "1",
       titleTodo: "Clean desk",
       descriptionTodo: "Clean both desk and computer once a week",
       idTodoState: "1",

@@ -19,10 +19,11 @@ module.exports = {
   //Create folder
   createFolder: async (req, res) => {
     /*
-    letdata = {titleFolder: req.body.titleFolder, descriptionFolder: req.body.descriptionFolder, 
+    letdata = {idFolder:"1", titleFolder: req.body.titleFolder, descriptionFolder: req.body.descriptionFolder, 
     idUser: req.body.idUser,};
     */
     let data = {
+      idFolder: "1",
       titleFolder: "Home Tasks",
       descriptionFolder: "My home tasks",
       idUser: "1",
@@ -42,10 +43,11 @@ module.exports = {
   //Update folder
   updateFolder: async (req, res) => {
     /*
-    letdata = {titleFolder: req.body.titleFolder, descriptionFolder: req.body.descriptionFolder, 
+    letdata = {idFolder:"1", titleFolder: req.body.titleFolder, descriptionFolder: req.body.descriptionFolder, 
     idUser: req.body.idUser,};
     */
     let data = {
+      idFolder: "1",
       titleFolder: "Home Tasks",
       descriptionFolder: "My home tasks",
       idUser: "1",

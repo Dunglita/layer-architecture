@@ -19,10 +19,11 @@ module.exports = {
   //Create todoState
   createTodoState: async (req, res) => {
     /*
-    let data = {nameTodoState: req.body.nameTodoState, 
+    let data = {idTodoState:"1", nameTodoState: req.body.nameTodoState, 
     modificationDateTodoState: req.body.modificationDateTodoState,};
     */
     let data = {
+      idTodoState: "1",
       nameTodoState: "In Progress",
       modificationDateTodoState: "2021-12-12 05:05:05",
     };
@@ -41,10 +42,11 @@ module.exports = {
   //Update todoState
   updateTodoState: async (req, res) => {
     /*
-    let data = {nameTodoState: req.body.nameTodoState, 
+    let data = {idTodoState:"1", nameTodoState: req.body.nameTodoState, 
     modificationDateTodoState: req.body.modificationDateTodoState,};
     */
     let data = {
+      idTodoState: "1",
       nameTodoState: "In Progress",
       modificationDateTodoState: "2021-12-12 05:05:05",
     };
